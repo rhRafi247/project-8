@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: #333333;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 120px;
+}
+header .logo{
+    margin-left: 90px;
+}
+header .logo img{
+    width: 80px;
+}
+header .nav{
+    margin-right: 180px;
+}
+header .nav ul{
+    border: 2px solid black;
+    padding: 10px 0;
+    border-radius: 90px;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+header .nav ul li{
+    padding: 0 20px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* ------------------------Header end------------------------------- */
+
+
+/* ------------------------------body section start------------------------------------- */
+.bodySection{
+    margin-left: 90px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bodySection .bodyText, .bodyImage, .bodyNav{
+    /* background-color: aqua; */
+    width: 33%;
+}
+.bodySection .bodyImage img{
+    margin-left: 125px;
+}
+.bodySection .bodyText h4{
+    font-size: 20px;
+    color: rgb(250, 250, 249);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+.bodySection .bodyText h1{
+    font-size: 80px;
+    color: #C1F201;
+}
+.bodySection .bodyText p{
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+.bodySection .line{
+    width: 120px;
+    margin-top: 10px;
+    border-bottom: solid 2px #C1F201;
+}
+.bodySection button{
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-color: #C1F201;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.bodySection .bodyNav{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    /* border-radius: 90px; */
+    /* background-color: #C1F201; */
+}
+.bodySection .bodyNav .icon{
+    cursor: pointer;
+    color: white;
+    padding: 15px 0;
+    margin-left: 295px;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border: 2px solid black;
+}
+.bodySection .bodyNav .icon1, .icon2, .icon3, .icon4, .icon5, .icon6{
+    padding: 7px 0;
+}
+/* ---------------------------body Section end------------------------------------- */
+
+
+
+.serviceMain{
+    width: 100%;
+    height: 100vh;
+}
+.serviceMain .service{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.serviceMain .service .serviceText{
+    /* background-color: #C1F201; */
+    margin-top: 20px;
+    width: 30%;
+    height: 120px;
+}
+
+
+.serviceMain .service .serviceText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.serviceMain .service .serviceText :first-child{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.serviceMain .service .serviceText :last-child{
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: #C1F201;
+}
+
+
+/* ------------------------------------------------------------- */
+.serviceMain .serviceCard1{
+    /* background-color: #C1F201; */
+    width: 50%;
+    height: 200px;
+}
+.serviceMain .service .serviceCard1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.serviceMain .service .serviceCard1 div{
+    width: 180px;
+    height: 180px;
+    background-color: #424242;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.serviceMain .serviceCard1 .cardChild1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.serviceMain .serviceCard1 .cardChild1 img{
+    width: 100px;
+}
+.serviceMain .serviceCard1 .cardChild1 h1{
+    color: white;
+    font-size: 20px;
+}
+.serviceMain .serviceCard1 .cardChild1 p{
+    font-size: 15px;
+    color: #C1F201;
+}
+
+
+
+
+.serviceMain .serviceCard1 .cardChild2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.serviceMain .serviceCard1 .cardChild2 img{
+    width: 100px;
+}
+.serviceMain .serviceCard1 .cardChild2 h1{
+    color: white;
+    font-size: 20px;
+}
+.serviceMain .serviceCard1 .cardChild2 p{
+    font-size: 15px;
+    color: #C1F201;
+}
+
+
+
+
+
+
+.serviceMain .serviceCard1 .cardChild3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.serviceMain .serviceCard1 .cardChild3 img{
+    width: 100px;
+}
+.serviceMain .serviceCard1 .cardChild3 h1{
+    color: white;
+    font-size: 20px;
+}
+.serviceMain .serviceCard1 .cardChild3 p{
+    font-size: 15px;
+    color: #C1F201;
+}
+/* ---------------------------------------------------------------- */
+
+
+
+
+
+/* ------------------------------------------------ */
+.serviceMain .serviceCard2{
+    /* background-color: #6d6e66; */
+    width: 50%;
+    height: 200px;
+    margin-top: 20px;
+}
+.serviceMain .service .serviceCard2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.serviceMain .service .serviceCard2 div{
+    width: 180px;
+    height: 180px;
+    background-color: #424242;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.serviceMain .serviceCard2 .cardChild4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.serviceMain .serviceCard2 .cardChild4 img{
+    width: 100px;
+}
+.serviceMain .serviceCard2 .cardChild4 h1{
+    color: white;
+    font-size: 20px;
+}
+.serviceMain .serviceCard2 .cardChild4 p{
+    font-size: 15px;
+    color: #C1F201;
+}
+
+
+
+.serviceMain .serviceCard2 .cardChild5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.serviceMain .serviceCard2 .cardChild5 img{
+    width: 100px;
+}
+.serviceMain .serviceCard2 .cardChild5 h1{
+    color: white;
+    font-size: 20px;
+}
+.serviceMain .serviceCard2 .cardChild5 p{
+    font-size: 15px;
+    color: #C1F201;
+}
+
+
+.serviceMain .serviceCard2 .cardChild6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.serviceMain .serviceCard2 .cardChild6 img{
+    width: 100px;
+}
+.serviceMain .serviceCard2 .cardChild6 h1{
+    color: white;
+    font-size: 20px;
+}
+.serviceMain .serviceCard2 .cardChild6 p{
+    font-size: 15px;
+    color: #C1F201;
+}
+/* --------------------------------------------------------- */
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------- */
+.footMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.footMain .foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 80px 60px;
+    border-radius: 5px;
+    background-color: #51524e;
+}
+.footMain .foot .line{
+    width: 500px;
+    border-bottom: 3px solid #C1F201;
+}
+.footMain .foot span{
+    color: #C1F201;
+    letter-spacing: 10px;
+}
+.footMain .foot h1{
+    font-size: 40px;
+    /* letter-spacing: 10px; */
+    color: white;
+    line-height: 70px;
+}
+.footMain .foot button{
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    background-color: #C1F201;
+    cursor: pointer;
+
+}
